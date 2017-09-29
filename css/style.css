@@ -65,10 +65,7 @@ body {
   }
 }
 .features__header {
-  padding-top: 25px;
-  padding-right: 40px;
-  padding-bottom: 25px;
-  padding-left: 40px;
+  padding: 20px;
   color: #000000;
   background-color: #ffffff;
 }
@@ -76,14 +73,14 @@ body {
   display: block;
   margin-bottom: 16px;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 24px;
   line-height: 30px;
   text-align: center;
   text-transform: uppercase;
 }
 .features__intro {
   margin: 0;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 27px;
   text-align: left;
 }
@@ -117,17 +114,18 @@ body {
 }
 .features__value,
 .features__field {
-  width: 50%;
-  padding: 20px;
+  padding: 20px 15px;
   vertical-align: top;
 }
 .features__value {
+  width: 40%;
   padding-right: 15px;
-  font-size: 28px;
+  font-size: 20px;
 }
 .features__field {
+  width: 60%;
   padding-left: 0;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 18px;
   text-align: left;
 }
@@ -163,6 +161,7 @@ body {
     text-transform: none;
   }
   .features__intro {
+    font-size: 20px;
     width: 37.5%;
     padding: 0;
     padding-left: 30px;
@@ -259,9 +258,9 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 20px;
+  font-size: 14px;
 }
 @media (min-width: 768px) {
   .page-footer {
@@ -276,4 +275,10 @@ body {
 .page-footer__phone {
   text-decoration: none;
   color: white;
+}
+@media (min-width: 768px) {
+  .page-footer {
+    font-size: 18px;
+    padding-top: 20px;
+  }
 }
